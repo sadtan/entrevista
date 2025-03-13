@@ -4,11 +4,11 @@ var fs = require("file-system");
 var webpack = require("webpack");
 
 module.exports = {
-  entry: path.join(__dirname, "./src/index.js"),
+  entry: path.join(__dirname, "/src/index.js"),
   output: {
-    publicPath: "./",
+    publicPath: "/",
     filename: "build.js",
-    path: path.join(__dirname, "./dist"),
+    path: path.join(__dirname, "/dist"),
   },
   module: {
     rules: [
