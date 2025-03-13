@@ -1,0 +1,156 @@
+#content-container {
+  padding: 18px 1.5rem 0;
+  padding-top: 18px;
+}
+
+@media screen and (min-width: 750px) {
+  #content-container {
+    padding: 18px 5rem 0;
+  }
+}
+
+.calc-options,
+.calc-table-title {
+  padding: 20px 0;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.calc-options span {
+  line-height: 1.3;
+}
+
+.calc-resume {
+  padding: 40px 0;
+  display: flex;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 44px;
+}
+
+.calc-inputs {
+  gap: 12px;
+  display: flex;
+  flex-direction: column !important;
+  max-width: 300px;
+  min-width: 300px;
+}
+
+.calc-input {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.styled-input {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #000;
+  width: 100%;
+}
+
+.styled-input input {
+  outline: none;
+  border: none;
+  width: 100%;
+  height: calc(100% - 4px);
+  padding: 0 5px;
+  font-family: "DM Sans", serif;
+  margin: 0 10px;
+}
+
+.calc-input button {
+  height: 47px;
+  outline: none;
+  border-radius: none;
+  color: #000;
+  font-weight: 400;
+  background: #fff;
+  cursor: pointer;
+}
+
+.calc-input button.btn-login {
+  background: #000;
+  color: #fff;
+}
+
+.input-symbol {
+  padding: 10px 0 10px 10px;
+}
+
+.input-symbol {
+  width: 22px;
+  text-align: center;
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.calc-results {
+  max-width: 300px;
+  min-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 47px;
+}
+
+.monthly-payment {
+  font-size: 28px;
+  font-weight: 900;
+  margin-top: 6px;
+  display: flex;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.monthly-payment-symbol {
+  margin-top: -3px;
+  line-height: 10px;
+  font-size: 10px;
+}
+
+.calc-table {
+  padding-bottom: 47px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table thead tr th {
+  border-bottom: 1px solid #000;
+  font-weight: 400;
+  font-size: 12px !important;
+  padding: 8px 12px;
+  line-height: 1.3;
+}
+
+table tbody tr td {
+  border-bottom: 1px solid #000;
+  padding: 8px 12px;
+  line-height: 1.3;
+}
+
+table thead tr th:first-child {
+  max-width: 51px;
+  min-width: 51px;
+  width: 51px;
+}
+
+table tbody tr td:first-child {
+  text-align: right;
+  max-width: 51px;
+  min-width: 51px;
+  width: 51px;
+}

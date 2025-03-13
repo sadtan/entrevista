@@ -1,0 +1,77 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+#heder {
+  width: 100vw;
+  padding: 0 1.5rem;
+}
+
+#main-header {
+  display: flex;
+  gap: 0px;
+  padding: 20px 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 600 !important;
+  font-size: 14px;
+}
+
+#main-header span {
+  margin-right: 22px;
+
+  /* cursor: pointer; */
+}
+
+.usuario-foto {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  border-top: 1px solid #000;
+  border-bottom: 2px solid #000;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid #000;
+}
+
+nav ul li {
+  padding: 12px 20px;
+  border-left: 1px solid #000;
+  line-height: 1.3;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 750px) {
+  #header {
+    padding: 0 5rem;
+  }
+}
